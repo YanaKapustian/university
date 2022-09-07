@@ -28,6 +28,9 @@ do {
    cz = Number(prompt('Введіть координату z третього вектора'))
 } while (isNaN(cz))
 
+document.writeln('Введені дані: </br>')
+document.writeln(`${ax} ${ay} ${az} </br> ${bx} ${by} ${bz} </br> ${cx} ${cy} ${cz} </br> `)
+
 //правило трикутника
 
 let result = (ax * by * cz) + (cx * ay * bz) + (az * bx * cy) - (cx * by * az) - (ax * bz * cy) - (bx * ay * cz);
