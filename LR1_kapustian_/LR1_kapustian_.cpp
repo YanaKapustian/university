@@ -1,4 +1,4 @@
-// LR1_kapustian_.cpp : This file contains the 'main' function. Program execution begins and ends there.
+﻿// LR1_kapustian_.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
@@ -8,14 +8,15 @@ using namespace std;
 int main()
 {
 	Func equation;
-	equation = equation.Init(0, 0, 0, 0);
+	equation = equation.Init(0, 0);
 	equation.Read();
 	equation.Add();
 	equation.Display();
 }
 
-//Лінійне рівняння y = Ax + B. a_coef і b_coef - коефіцієнти А і В, x_var - змінна Х, y_answ - змінна У відповідь рівняння.
-//Метод Init ініціалізує змінні, метод Read запитує у користувача дані, метод Add рахує У, метод Display показує результат.
+//Лінійне рівняння y = Ax + B. a_coef і b_coef - коефіцієнти А і В, x_var - змінна Х, y_answ - змінна У, відповідь рівняння.
+//Метод Init ініціалізує змінні, метод Read запитує у користувача дані, метод Add рахує Х та У, метод Display показує результат.
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
