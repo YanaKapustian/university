@@ -1,0 +1,14 @@
+﻿  Time.cpp
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(24,37): error C2131: expression did not evaluate to a constant
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(24,37): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(24,37): message : see usage of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::length'
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(24,40): error C2734: 'char_array': 'const' object must be initialized if not 'extern'
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(25,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(27,22): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(28,24): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(29,24): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(36,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(37,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(87,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(93,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\User\source\repos\LR2_kapustian\Time.cpp(108,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
