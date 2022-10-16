@@ -1,0 +1,9 @@
+﻿  LR7_kapustian.cpp
+C:\Users\User\source\repos\LR7_kapustian\Header.h(20,16): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\LR7_kapustian\Header.h(29,15): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\LR7_kapustian\Header.h(36,15): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\LR7_kapustian\Header.h(43,15): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\LR7_kapustian\LR7_kapustian.cpp(39,2): warning C4286: const std::overflow_error: перехвачено базовым классом ("const std::runtime_error") в строке 35
+C:\Users\User\source\repos\LR7_kapustian\LR7_kapustian.cpp(17,21): warning C4101: err: неиспользованная локальная переменная
+C:\Users\User\source\repos\LR7_kapustian\Header.h(23): warning C4715: Division::divide1: значение возвращается не при всех путях выполнения
+  LR7_kapustian.vcxproj -> C:\Users\User\source\repos\LR7_kapustian\x64\Debug\LR7_kapustian.exe
