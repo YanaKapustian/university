@@ -1,0 +1,36 @@
+﻿  Timefuncsdll.cpp
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(10,16): warning C4273: Timefuncs::Timefuncs::Timefuncs: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(18,3): message : см. предыдущее определение "{ctor}"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(16,16): warning C4273: Timefuncs::Timefuncs::Timefuncs: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(19,3): message : см. предыдущее определение "{ctor}"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(18,22): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(19,24): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(22,16): warning C4273: Timefuncs::Timefuncs::Timefuncs: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(17,3): message : см. предыдущее определение "{ctor}"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(29,21): warning C4273: Timefuncs::Timefuncs::Read: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(23,8): message : см. предыдущее определение "Read"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(38,21): warning C4273: Timefuncs::Timefuncs::Display: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(24,15): message : см. предыдущее определение "Display"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(45,23): warning C4273: Timefuncs::Timefuncs::toString: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(25,17): message : см. предыдущее определение "toString"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(50,20): warning C4273: Timefuncs::Timefuncs::CountDiffInSeconds: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(26,14): message : см. предыдущее определение "CountDiffInSeconds"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(59,26): warning C4273: Timefuncs::Timefuncs::AddSeconds: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(27,20): message : см. предыдущее определение "AddSeconds"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(65,24): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(71,22): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(81,20): warning C4273: Timefuncs::Timefuncs::CountSeconds: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(28,14): message : см. предыдущее определение "CountSeconds"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(87,20): warning C4273: Timefuncs::Timefuncs::CountMinutes: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(29,14): message : см. предыдущее определение "CountMinutes"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(91,20): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(94,23): warning C4273: Timefuncs::Timefuncs::CompareTimes: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(30,17): message : см. предыдущее определение "CompareTimes"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(112,26): warning C4273: Timefuncs::Timefuncs::operator +: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(32,13): message : см. предыдущее определение "+"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(134,26): warning C4273: Timefuncs::Timefuncs::operator -: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(33,13): message : см. предыдущее определение "-"
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.cpp(156,26): warning C4273: Timefuncs::Timefuncs::operator *: несовместимое связывание dll
+C:\Users\User\source\repos\Timefuncsdll\Timefuncsdll\Timefuncsdll.h(34,13): message : см. предыдущее определение "*"
+     ????????? ?????????? C:\Users\User\source\repos\Timefuncsdll\x64\Debug\Timefuncsdll.lib ? ?????? C:\Users\User\source\repos\Timefuncsdll\x64\Debug\Timefuncsdll.exp
+  Timefuncsdll.vcxproj -> C:\Users\User\source\repos\Timefuncsdll\x64\Debug\Timefuncsdll.dll
