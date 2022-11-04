@@ -1,0 +1,8 @@
+﻿  LR8_kapustian.cpp
+  Time.cpp
+C:\Users\User\source\repos\LR8_kapustian\Time.cpp(49,20): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\LR8_kapustian\Time.cpp(55,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\User\source\repos\LR8_kapustian\Time.cpp(74,16): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Triad.cpp
+  Создание кода...
+  LR8_kapustian.vcxproj -> C:\Users\User\source\repos\LR8_kapustian\x64\Debug\LR8_kapustian.exe
