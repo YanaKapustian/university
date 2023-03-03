@@ -1,0 +1,164 @@
+using System;
+
+class Appointment
+{
+    public DateTime Date { get; set; }
+    public string Description { get; set; }
+    public Appointment Next { get; set; }
+
+    public Appointment(DateTime date, string description)
+    {
+        Date = date;
+        Description = description;
+        Next = null;
+    }
+}
+
+class Calendar
+{
+    private Appointment head;
+    private Appointment tail;
+
+    public Calendar()
+    {
+        head = null;
+        tail = null;
+    }
+
+    public void AddAppointment(DateTime date, string description)
+    {
+        Appointment newAppointment = new Appointment(date, description);
+
+        if (head == null) // if list is empty
+        {
+            head = newAppointment;
+            tail = newAppointment;
+        }
+        else if (date <= head.Date) // if new appointment is earlier than or equal to the first appointment
+        {
+            newAppointment.Next = head;
+            head = newAppointment;
+            tail.Next = head; // make the list circular
+        }
+        else if (date >= tail.Date) // if new appointment is later than or equal to the last appointment
+        {
+            tail.Next = newAppointment;
+            tail = newAppointment;
+            tail.Next = head; // make the list circular
+        }
+        else // if new appointment is in the middle of the list
+        {
+            Appointment current = head;
+
+            while (current.Next.Date < date)
+            {
+                current = current.Next;
+            }
+
+            newAppointment.Next = current.Next;
+            current.Next = newAppointment;
+        }
+    }
+
+    public void RemoveAppointment(DateTime date, string description)
+    {
+        if (head == null) // if list is empty
+        {
+            Console.WriteLine("No appointments to remove.");
+            return;
+        }
+
+        if (head.Date == date && head.Description == description) // if appointment to remove is the first appointment
+        {
+            head = head.Next;
+            tail.Next = head; // make the list circular
+            Console.WriteLine($"Appointment on {date.ToShortDateString()} with description \"{description}\" removed.");
+            return;
+        }
+
+        Appointment current = head;
+
+        while (current.Next != head) // traverse the list
+        {
+            if (current.Next.Date == date && current.Next.Description == description) // if next appointment matches the appointment to remove
+            {
+                current.Next = current.Next.Next;
+                Console.WriteLine($"Appointment on {date.ToShortDateString()} with description \"{description}\" removed.");
+                return;
+            }
+
+            current = current.Next;
+        }
+
+        Console.WriteLine($"No appointment found on {date.ToShortDateString()} with description \"{description}\".");
+    }
+
+    public void DisplayAppointments(DateTime date)
+    {
+        if (head == null) // if list is empty
+        {
+            Console.WriteLine("No appointments to display.");
+            return;
+        }
+
+        Appointment current = head;
+
+        do // traverse the circular list
+        {
+            if (current.Date == date) // if the appointment is on the specified date
+            {
+                Console.WriteLine($"{current.Date.ToShortDateString()}: {current.Description}");
+            }
+
+            current = current.Next;
+        } while (current != head);
+    }
+    static void Main(string[] args)
+    {
+        Calendar calendar = new Calendar();
+
+        while (true)
+        {
+            Console.WriteLine("\nCalendar Menu:");
+            Console.WriteLine("1. Add Appointment");
+            Console.WriteLine("2. Remove Appointment");
+            Console.WriteLine("3. Display Appointments for Date");
+            Console.WriteLine("4. Exit");
+
+            Console.Write("Enter a choice (1-4): ");
+            int choice = int.Parse(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1:
+                    Console.Write("Enter appointment date (MM/dd/yyyy): ");
+                    DateTime date = DateTime.Parse(Console.ReadLine());
+                    Console.Write("Enter appointment description: ");
+                    string description = Console.ReadLine();
+                    calendar.AddAppointment(date, description);
+                    Console.WriteLine($"Appointment on {date.ToShortDateString()} with description \"{description}\" added.");
+                    break;
+                case 2:
+                    Console.Write("Enter appointment date (MM/dd/yyyy): ");
+                    date = DateTime.Parse(Console.ReadLine());
+                    Console.Write("Enter appointment description: ");
+                    description = Console.ReadLine();
+                    calendar.RemoveAppointment(date, description);
+                    break;
+                case 3:
+                    Console.Write("Enter a date to display appointments (MM/dd/yyyy): ");
+                    date = DateTime.Parse(Console.ReadLine());
+                    Console.WriteLine($"Appointments for {date.ToShortDateString()}:");
+                    calendar.DisplayAppointments(date);
+                    break;
+                case 4:
+                    Console.WriteLine("Exiting...");
+                    return;
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    break;
+            }
+        }
+    }
+}
+
