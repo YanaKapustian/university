@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\LR15_kapustian\bin\Debug\LR15_kapustian.exe.config
+C:\Users\User\source\repos\LR15_kapustian\bin\Debug\LR15_kapustian.exe
+C:\Users\User\source\repos\LR15_kapustian\bin\Debug\LR15_kapustian.pdb
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.Form1.resources
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.Properties.Resources.resources
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.csproj.GenerateResource.cache
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.exe
+C:\Users\User\source\repos\LR15_kapustian\obj\Debug\LR15_kapustian.pdb
