@@ -1,0 +1,207 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class Node
+{
+    public int data;
+    public Node left;
+    public Node right;
+
+    public Node(int value)
+    {
+        data = value;
+        left = null;
+        right = null;
+    }
+}
+
+public class BinaryTree
+{
+    public Node root;
+
+    public BinaryTree()
+    {
+        root = null;
+    }
+
+    public void Insert(int value)
+    {
+        Node newNode = new Node(value);
+        if (root == null)
+        {
+            root = newNode;
+            return;
+        }
+        Node current = root;
+        Node parent = null;
+        while (true)
+        {
+            parent = current;
+            if (value < current.data)
+            {
+                current = current.left;
+                if (current == null)
+                {
+                    parent.left = newNode;
+                    return;
+                }
+            }
+            else
+            {
+                current = current.right;
+                if (current == null)
+                {
+                    parent.right = newNode;
+                    return;
+                }
+            }
+        }
+    }
+
+    public Node Search(int value)
+    {
+        return Search(root, value);
+    }
+
+    private Node Search(Node node, int value)
+    {
+        if (node == null || node.data == value)
+        {
+            return node;
+        }
+        if (value < node.data)
+        {
+            return Search(node.left, value);
+        }
+        else
+        {
+            return Search(node.right, value);
+        }
+    }
+
+    public int GetDepth(int value)
+    {
+        return GetDepth(root, value, 0);
+    }
+
+    private int GetDepth(Node node, int value, int depth)
+    {
+        if (node == null)
+        {
+            return -1;
+        }
+        if (node.data == value)
+        {
+            return depth;
+        }
+        int leftDepth = GetDepth(node.left, value, depth + 1);
+        if (leftDepth != -1)
+        {
+            return leftDepth;
+        }
+        return GetDepth(node.right, value, depth + 1);
+    }
+
+    public int GetHeight()
+    {
+        return GetHeight(root);
+    }
+
+    private int GetHeight(Node node)
+    {
+        if (node == null)
+        {
+            return -1;
+        }
+        int leftHeight = GetHeight(node.left);
+        int rightHeight = GetHeight(node.right);
+        return Math.Max(leftHeight, rightHeight) + 1;
+    }
+
+    public void TraverseInOrder(Node node)
+    {
+        if (node != null)
+        {
+            TraverseInOrder(node.left);
+            Console.Write(node.data + " ");
+            TraverseInOrder(node.right);
+        }
+    }
+}
+
+public class Program
+{
+    static void Main(string[] args)
+    {
+        BinaryTree tree = new BinaryTree();
+        int choice = 0;
+        while (choice != 5)
+        {
+            Console.WriteLine("\nPlease select an option:");
+            Console.WriteLine("1. Add element to the tree");
+            Console.WriteLine("2. Search for an element in the tree");
+            Console.WriteLine("3. Determine the depth of a node and the height of the tree");
+            Console.WriteLine("4. Traverse the tree");
+            Console.WriteLine("5. Exit");
+            Console.Write("\nEnter your choice (1-5): ");
+            try
+            {
+                choice = int.Parse(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        Console.Write("Enter the value to be added: ");
+                        int value = int.Parse(Console.ReadLine());
+                        tree.Insert(value);
+                        Console.WriteLine("Value {0} added to the tree", value);
+                        break;
+                    case 2:
+                        Console.Write("Enter the value to be searched: ");
+                        int searchValue = int.Parse(Console.ReadLine());
+                        Node result = tree.Search(searchValue);
+                        if (result == null)
+                        {
+                            Console.WriteLine("Value {0} not found in the tree", searchValue);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Value {0} found in the tree", searchValue);
+                        }
+                        break;
+                    case 3:
+                        Console.Write("Enter the value to determine depth: ");
+                        int depthValue = int.Parse(Console.ReadLine());
+                        int depth = tree.GetDepth(depthValue);
+                        if (depth == -1)
+                        {
+                            Console.WriteLine("Value {0} not found in the tree", depthValue);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Depth of value {0} is {1}", depthValue, depth);
+                        }
+                        int height = tree.GetHeight();
+                        Console.WriteLine("Height of the tree is {0}", height);
+                        break;
+                    case 4:
+                        Console.Write("Traversing the tree in order: ");
+                        tree.TraverseInOrder(tree.root);
+                        Console.WriteLine();
+                        break;
+                    case 5:
+                        Console.WriteLine("Exiting...");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid choice, please try again.");
+                        break;
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid input, please enter a number.");
+            }
+        }
+    }
+}
