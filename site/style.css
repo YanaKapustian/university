@@ -1,0 +1,47 @@
+body {
+	background-color: wheat;
+}
+img {
+   max-width: 400px;
+	object-fit: cover;
+	margin: 0px 15px;
+}
+.flex {
+   display: flex;
+}
+footer{
+	width: 100%;
+	background-color: #656565;
+	margin: 0;
+	margin-top: 60px;
+	padding: 30px 0;
+}
+.info_large{
+	font-size: 30px;
+	color: black;
+	margin: 0;
+}
+.info__color{
+	font-size: 25px;
+	color: purple;
+	margin: 0;
+	margin-top: 20px;
+}
+.big {
+   font-size: 30px;
+}
+h1 {
+   font-size: 40px;
+}
+h2 {
+   font-size: 35px;
+}
+h3 {
+   font-size: 30px;
+}
+.list {
+	font-size: 22px;
+}
+.list li:nth-child(even) {
+	color: fuchsia;
+}
