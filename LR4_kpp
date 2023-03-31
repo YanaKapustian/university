@@ -1,0 +1,64 @@
+import java.util.Arrays;
+
+public class StringArrayOperations {
+    public static void main(String[] args) {
+        String[] words = {"apple", "dog", "cat", "bear", "deer", "add", "dad", "sad", "doctor Dickens"};
+
+        // а) знаходимо слово, яке по алфавіту передує всім іншим словам
+        String firstWord = getFirstWord(words);
+        System.out.println("Перше слово в алфавітному порядку: " + firstWord);
+
+        // б) знаходимо всі слова, що мають рівно дві букви 'd'
+        String[] wordsWithTwoDs = getWordsWithTwoDs(words);
+        System.out.println("Слова з двома 'd': " + Arrays.toString(wordsWithTwoDs));
+    }
+
+    // метод для знаходження слова, яке по алфавіту передує всім іншим словам
+    public static String getFirstWord(String[] words) {
+        if (words.length == 0) {
+            return "";
+        }
+
+        String firstWord = words[0];
+        for (int i = 1; i < words.length; i++) {
+            if (words[i].compareTo(firstWord) < 0) {
+                firstWord = words[i];
+            }
+        }
+
+        return firstWord;
+    }
+
+    // метод для знаходження всіх слів, що мають рівно дві букви 'd'
+    public static String[] getWordsWithTwoDs(String[] words) {
+        int count = 0;
+        for (String word : words) {
+            int dCount = 0;
+            for (int i = 0; i < word.length(); i++) {
+                if (word.charAt(i) == 'd') {
+                    dCount++;
+                }
+            }
+            if (dCount == 2) {
+                count++;
+            }
+        }
+
+        String[] result = new String[count];
+        int index = 0;
+        for (String word : words) {
+            int dCount = 0;
+            for (int i = 0; i < word.length(); i++) {
+                if (word.charAt(i) == 'd') {
+                    dCount++;
+                }
+            }
+            if (dCount == 2) {
+                result[index] = word;
+                index++;
+            }
+        }
+
+        return result;
+    }
+}
