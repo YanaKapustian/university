@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\LR19_kapustian\bin\Debug\net6.0-windows\LR19_kapustian.exe
+C:\Users\User\source\repos\LR19_kapustian\bin\Debug\net6.0-windows\LR19_kapustian.deps.json
+C:\Users\User\source\repos\LR19_kapustian\bin\Debug\net6.0-windows\LR19_kapustian.runtimeconfig.json
+C:\Users\User\source\repos\LR19_kapustian\bin\Debug\net6.0-windows\LR19_kapustian.dll
+C:\Users\User\source\repos\LR19_kapustian\bin\Debug\net6.0-windows\LR19_kapustian.pdb
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.Form1.resources
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.csproj.GenerateResource.cache
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.AssemblyInfo.cs
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.dll
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\refint\LR19_kapustian.dll
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.pdb
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\LR19_kapustian.genruntimeconfig.cache
+C:\Users\User\source\repos\LR19_kapustian\obj\Debug\net6.0-windows\ref\LR19_kapustian.dll
