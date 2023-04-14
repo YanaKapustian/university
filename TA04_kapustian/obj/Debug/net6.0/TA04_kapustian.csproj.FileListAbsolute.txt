@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\TA04_kapustian\bin\Debug\net6.0\TA04_kapustian.exe
+C:\Users\User\source\repos\TA04_kapustian\bin\Debug\net6.0\TA04_kapustian.deps.json
+C:\Users\User\source\repos\TA04_kapustian\bin\Debug\net6.0\TA04_kapustian.runtimeconfig.json
+C:\Users\User\source\repos\TA04_kapustian\bin\Debug\net6.0\TA04_kapustian.dll
+C:\Users\User\source\repos\TA04_kapustian\bin\Debug\net6.0\TA04_kapustian.pdb
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.AssemblyInfo.cs
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.dll
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\refint\TA04_kapustian.dll
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.pdb
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\TA04_kapustian.genruntimeconfig.cache
+C:\Users\User\source\repos\TA04_kapustian\obj\Debug\net6.0\ref\TA04_kapustian.dll
