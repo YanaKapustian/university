@@ -1,0 +1,21 @@
+C:\Users\Anton\source\Repos\lab23\lab23\bin\Debug\lab23.exe.config
+C:\Users\Anton\source\Repos\lab23\lab23\bin\Debug\lab23.exe
+C:\Users\Anton\source\Repos\lab23\lab23\bin\Debug\lab23.pdb
+C:\Users\Anton\source\Repos\lab23\lab23\obj\Debug\lab23.csproj.AssemblyReference.cache
+C:\Users\Anton\source\Repos\lab23\lab23\obj\Debug\lab23.Form1.resources
+C:\Users\Anton\source\Repos\lab23\lab23\obj\Debug\lab23.Properties.Resources.resources
+C:\Users\Anton\source\Repos\lab23\lab23\obj\Debug\lab23.csproj.GenerateResource.cache
+C:\Users\Anton\source\Repos\lab23\lab23\obj\Debug\lab23.csproj.CoreCompileInputs.cache
+C:\Users\Anton\source\Repos\lab23\lab23\obj\Debug\lab23.exe
+C:\Users\Anton\source\Repos\lab23\lab23\obj\Debug\lab23.pdb
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\bin\Debug\lab23.exe.config
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\bin\Debug\lab23.exe
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\bin\Debug\lab23.pdb
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.Form1.resources
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.Properties.Resources.resources
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.exe
+C:\Users\User\Downloads\Telegram Desktop\lab23\lab23\lab23\obj\Debug\lab23.pdb
