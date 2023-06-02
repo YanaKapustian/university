@@ -1,0 +1,21 @@
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\bin\Debug\lab24_1.exe.config
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\bin\Debug\lab24_1.exe
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\bin\Debug\lab24_1.pdb
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\obj\Debug\lab24_1.csproj.AssemblyReference.cache
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\obj\Debug\lab24_1.Form1.resources
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\obj\Debug\lab24_1.Properties.Resources.resources
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\obj\Debug\lab24_1.csproj.GenerateResource.cache
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\obj\Debug\lab24_1.csproj.CoreCompileInputs.cache
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\obj\Debug\lab24_1.exe
+C:\Users\Anton\source\Repos\lab24_1\lab24_1\obj\Debug\lab24_1.pdb
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\bin\Debug\lab24_1.exe.config
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\bin\Debug\lab24_1.exe
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\bin\Debug\lab24_1.pdb
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.Form1.resources
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.Properties.Resources.resources
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.exe
+C:\Users\User\Downloads\Telegram Desktop\Капустян24\Капустян24\lab24_1\lab24_1\obj\Debug\lab24_1.pdb
