@@ -1,0 +1,12 @@
+D:\Word_2\LabWork12\LabWork12\bin\Debug\LabWork12.exe.config
+D:\Word_2\LabWork12\LabWork12\bin\Debug\LabWork12.exe
+D:\Word_2\LabWork12\LabWork12\bin\Debug\LabWork12.pdb
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.csproj.AssemblyReference.cache
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.csproj.SuggestedBindingRedirects.cache
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.csproj.ResolveComReference.cache
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.Form1.resources
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.Properties.Resources.resources
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.csproj.GenerateResource.cache
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.csproj.CoreCompileInputs.cache
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.exe
+D:\Word_2\LabWork12\LabWork12\obj\Debug\LabWork12.pdb

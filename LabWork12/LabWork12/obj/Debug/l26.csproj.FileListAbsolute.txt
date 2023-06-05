@@ -1,0 +1,34 @@
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\l26.csproj.AssemblyReference.cache
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\l26.csproj.ResolveComReference.cache
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\l26.Form1.resources
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\LabWork12.Properties.Resources.resources
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\l26.csproj.GenerateResource.cache
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\l26.csproj.CoreCompileInputs.cache
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\LabWork12.exe
+C:\Users\Anton\source\repos\LabWork12\LabWork12\obj\Debug\LabWork12.pdb
+C:\Users\Anton\source\repos\LabWork12\LabWork12\bin\Debug\LabWork12.exe.config
+C:\Users\Anton\source\repos\LabWork12\LabWork12\bin\Debug\LabWork12.exe
+C:\Users\Anton\source\repos\LabWork12\LabWork12\bin\Debug\LabWork12.pdb
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\bin\Debug\LabWork12.exe.config
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\bin\Debug\LabWork12.exe
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\bin\Debug\LabWork12.pdb
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\l26.csproj.AssemblyReference.cache
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\l26.csproj.ResolveComReference.cache
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\l26.Form1.resources
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\LabWork12.Properties.Resources.resources
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\l26.csproj.GenerateResource.cache
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\l26.csproj.CoreCompileInputs.cache
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\LabWork12.exe
+C:\Users\Anton\source\Repos\LabWork12\LabWork12\LabWork12\obj\Debug\LabWork12.pdb
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\bin\Debug\LabWork12.exe.config
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\bin\Debug\LabWork12.exe
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\bin\Debug\LabWork12.pdb
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\l26.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\l26.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\l26.csproj.ResolveComReference.cache
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\l26.Form1.resources
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\LabWork12.Properties.Resources.resources
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\l26.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\l26.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\LabWork12.exe
+C:\Users\User\Downloads\Telegram Desktop\26\26\LabWork12\LabWork12\obj\Debug\LabWork12.pdb
